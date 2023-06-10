@@ -1,7 +1,17 @@
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 28px auto 0;
-  min-width: 1184px;
+  min-width: 100%;
+  padding: 28px 48px 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding: 0 24px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 16px 16px 0;
+  }
 }

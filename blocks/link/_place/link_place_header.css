@@ -1,0 +1,30 @@
+.link_place_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: underline;
+  height: 30px;
+  width: 28px;
+}
+
+.link_place_header:last-of-type {
+  text-decoration: none;
+  width: 29px;
+  height: 28px;
+}
+
+@media (max-width: 767px) {
+  .link_place_header {
+    font-size: 18px;
+    line-height: 20px;
+    width: 22px;
+    height: 20px;
+  }
+
+  .link_place_header:last-of-type {
+    width: 22px;
+    height: 20px;
+  }
+}

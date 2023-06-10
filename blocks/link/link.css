@@ -1,0 +1,15 @@
+.link {
+  color: var(--font-color);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.15s linear;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+

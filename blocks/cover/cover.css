@@ -1,0 +1,12 @@
+.cover {
+  margin: 0 0 92px 0;
+  padding: 0 48px 0;
+  box-sizing: border-box;
+  min-width: 100%;
+}
+
+@media (max-width: 1279px) {
+  .cover {
+    padding: 0;
+  }
+}
