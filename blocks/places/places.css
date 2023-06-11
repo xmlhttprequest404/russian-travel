@@ -25,5 +25,7 @@
 @media (max-width: 319px) {
   .places {
     padding: 0 0 66px;
+    max-width: 320px;
+    min-width: 200px;
   }
 }

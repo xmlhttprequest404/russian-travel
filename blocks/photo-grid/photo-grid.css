@@ -23,7 +23,7 @@
 
 @media (max-width: 767px) {
   .photo-grid {
-    min-width: 288px;
+    min-width: 264px;
     max-width: 720px;
     padding: 0 16px 66px;
   }
@@ -31,7 +31,7 @@
 
 @media (max-width: 319px) {
   .photo-grid {
-    max-width: 288px;
+    max-width: 264px;
     padding: 0 16px 66px;
   }
 }

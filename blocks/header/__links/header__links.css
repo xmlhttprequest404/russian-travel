@@ -1,6 +1,12 @@
 .header__links {
   display: flex;
   flex-direction: row;
-  align-items: flex-end ;
+  align-items: flex-end;
   column-gap: 18px;
+}
+
+@media (max-width: 767px) {
+  .header__links {
+    align-items: center;
+  }
 }

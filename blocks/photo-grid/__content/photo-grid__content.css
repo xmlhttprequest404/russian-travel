@@ -20,6 +20,7 @@
 
 @media (max-width: 1023px) {
   .photo-grid__content {
+    gap: 16px;
     grid-template-columns: 352px 352px;
     grid-template-rows: 264px;
     max-width: 928px;
@@ -33,7 +34,7 @@
     grid-template-rows: 216px;
     gap: 12px;
     max-width: 720px;
-    min-width: 288px;
+    min-width: 264px;
   }
 }
 
