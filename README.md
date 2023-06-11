@@ -16,4 +16,5 @@
 * Grid-layout
 * Отзывчивая верстка
 
-## Запусить и посмотреть проект вы можете по этой ссылке [Путешествия по России](https://xmlhttprequest404.github.io/russian-travel/index.html "Путешествия по России")
+## Запусить и посмотреть проект вы можете по ссылке:
+* [Путешествия по России](https://xmlhttprequest404.github.io/russian-travel/index.html "Путешествия по России")
