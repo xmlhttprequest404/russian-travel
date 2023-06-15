@@ -1,6 +1,6 @@
 .link {
   color: var(--font-color);
-  font-family: 'Inter';
+  font-family: 'Inter', 'Georgia', 'Verdana', sans-serif;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;

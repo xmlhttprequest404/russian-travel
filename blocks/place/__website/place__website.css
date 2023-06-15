@@ -1,5 +1,4 @@
 .place__website {
-  max-width: 456px;
   margin: 0;
   align-self: end;
   box-sizing: border-box;
@@ -7,15 +6,8 @@
 
 @media (max-width: 767px) {
   .place__website {
-    justify-self: start;
-    padding-left: 16px;
+    justify-self: center;
     max-width: 288px;
     min-width: 288px;
-  }
-}
-
-@media (max-width: 319px) {
-  .place__website {
-    padding: 0;
   }
 }

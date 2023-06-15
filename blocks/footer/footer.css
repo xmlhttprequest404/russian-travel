@@ -1,23 +1,36 @@
 .footer {
-  min-width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
   box-sizing: border-box;
-  padding: 92px 48px 24px;
+  margin: 92px 0 24px;
+  max-width: 1184px;
+  width: 92.5%;
+}
+
+@media (max-width: 1279px) {
+  .footer {
+    width: 90.5%;
+  }
 }
 
 @media (max-width: 1023px) {
   .footer {
-
-    padding: 88px 0 24px 16px;
+    max-width: 928px;
+    width: 93.5%;
+    margin-top: 88px;
   }
 }
 
 @media (max-width: 767px) {
   .footer {
-    padding: 64px 0 24px 16px;
-    justify-content: flex-start;
+    margin-top: 64px;
+    max-width: 720px;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 }
 
