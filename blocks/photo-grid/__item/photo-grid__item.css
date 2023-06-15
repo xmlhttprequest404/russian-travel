@@ -2,23 +2,3 @@
   min-width: 100%;
   object-fit: cover;
 }
-
-@media (max-width: 1279px) {
-  .photo-grid__item {
-    min-width: 300px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .photo-grid__item {
-    min-width: 352px;
-  }
-}
-
-@media (max-width: 767px) {
-  .photo-grid__item {
-    max-width: 352px;
-    min-width: 288px;
-  }
-}
-

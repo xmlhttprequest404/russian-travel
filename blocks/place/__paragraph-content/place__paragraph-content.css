@@ -4,14 +4,15 @@
   flex-wrap: wrap;
   vertical-align: top;
   row-gap: 26px;
-  min-width: 484px;
   box-sizing: border-box;
+  justify-self: center;
 }
 
 @media (max-width: 1279px) {
   .place__paragraph-content {
     min-width: 456px;
     max-width: 484px;
+    row-gap: 27px;
   }
 }
 
@@ -25,17 +26,10 @@
 
 @media (max-width: 767px) {
   .place__paragraph-content {
-    min-width: 288px;
-    max-width: 352px;
+    min-width: min-content;
+    max-width: 720px;
     justify-content: center;
     row-gap: 25px;
     padding: 0 16px;
-  }
-}
-
-@media (max-width: 319px) {
-  .place__paragraph-content {
-    max-width: 320px;
-    min-width: 200px;
   }
 }

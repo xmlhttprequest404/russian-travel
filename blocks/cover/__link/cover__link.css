@@ -12,6 +12,8 @@
   justify-content: center;
   row-gap: 32px;
   z-index: 0;
+  max-width: 1184px;
+  width: 100%;
 }
 
 .cover__link::before {
@@ -45,5 +47,6 @@
 @media (max-width: 767px) {
   .cover__link {
     min-height: 200px;
+    row-gap: 16px;
   }
 }

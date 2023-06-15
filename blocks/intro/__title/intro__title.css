@@ -1,17 +1,19 @@
 .intro__title {
   margin: 0 0 40px 0;
   color: var(--font-color);
-  font-family: 'Inter';
+  font-family: 'Inter', 'Georgia', 'Verdana', sans-serif;
   font-style: normal;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
+  max-width: 690px;
+  min-width: min-content;
 }
 
 @media (max-width: 767px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    padding-right: 40px;
+    max-width: 720px;
   }
 }

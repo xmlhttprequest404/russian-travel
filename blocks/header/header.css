@@ -1,17 +1,31 @@
 .header {
-  min-width: 100%;
-  padding: 28px 48px 0;
+  padding-top: 28px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1184px;
+  width: 92.5%;
+}
+
+@media (max-width: 1279px) {
+  .header {
+    width: 90.5%;
+  }
 }
 
 @media (max-width: 1023px) {
   .header {
-    padding: 28px 24px 0;
+    max-width: 928px;
+    width: 93.5%;
   }
 }
 
 @media (max-width: 767px) {
   .header {
-    padding: 16px 16px 0;
+    max-width: 720px;
+    min-width: 288px;
+    width: 90%;
+    padding-top: 16px;
   }
 }
